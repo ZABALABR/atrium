@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola Mundo</title>
+    <base href="/">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" type="module"></script> 
 </head>
+
 <body>
    <header>
         <h1>Título principal</h1>
@@ -14,6 +18,7 @@
                 <li><a href="#item1">Item 1</a></li>
                 <li><a href="#item2">Item 2</a></li>
                 <li><a href="#item3">Item 3</a></li>
+                <li><a href="https://www.google.es">Google</a></li>
             </ol>
         </nav>
    </header>
@@ -44,6 +49,14 @@
             <h2>Item 2</h2>
             <article>
                 <h3>Article 1</h3>
+                <video 
+                    controls
+                    width="400px"
+                    >
+                    <source src="./assets/Ghost_in_the_Shell_Opening.webm"> 
+                    <source src="./assets/Ghost_in_the_Shell_Opening.mp4" 
+                        type="">
+                </video>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla eaque veniam dolorum voluptatem,
                     soluta ducimus minus id facere rerum repellendus distinctio similique explicabo et qui enim non magnam nostrum!</p>
                 <p>Quos accusantium quo voluptates harum distinctio corrupti, ipsa iste possimus, doloremque minus molestias odio,
@@ -72,6 +85,6 @@
    </aside>
    <footer>
        <address></address>
-   </footer>
+   </footer>  
 </body>
 </html>
